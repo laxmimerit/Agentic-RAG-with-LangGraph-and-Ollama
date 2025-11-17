@@ -23,19 +23,20 @@ llm = ChatOllama(model=LLM_MODEL, base_url=BASE_URL, temperature=0)
 class AgentState(TypedDict):
     messages: Annotated[list, operator.add]
 
+# make sure to install uv
 async def create_agent():
 
     client = MultiServerMCPClient(
     {
-        "airbnb": {
-            "command": "npx",
-            "args": [
-                "-y",
-                "@openbnb/mcp-server-airbnb",
-                "--ignore-robots-txt"
-            ],
-            "transport": "stdio"
-    }
+        "sqlite": {
+			"command": "uvx",
+			"args": [
+				"git+https://github.com/laxmimerit/mcp-server-sqlite.git",
+				"--db-path",
+				"D:\\LLM\\Agentic-RAG-with-LangGraph-and-Ollama\\11. MySQL Agent\\db\\employees_db-full-1.0.6.db"
+			],
+            'transport': 'stdio'
+		}
     }
 )
     
@@ -71,4 +72,4 @@ async def search(query):
 
 if __name__=="__main__":
     # asyncio.run(create_agent())
-    asyncio.run(search("Find premium hotels in Mumbai"))
+    asyncio.run(search("How many employees are there?"))
