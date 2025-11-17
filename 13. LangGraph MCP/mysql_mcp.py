@@ -20,6 +20,10 @@ BASE_URL = "http://localhost:11434"
 
 llm = ChatOllama(model=LLM_MODEL, base_url=BASE_URL, temperature=0)
 
+class AgentState(TypedDict):
+    messages: Annotated[list, operator.add]
+
+
 async def get_tools(): 
     client = MultiServerMCPClient(
         {
@@ -39,10 +43,6 @@ async def get_tools():
     print(f"Tools: {tools}")
 
     return tools
-
-class AgentState(TypedDict):
-    messages: Annotated[list, operator.add]
-
 # create in-function agent node
 async def agent(state: AgentState):
     tools = await get_tools()
