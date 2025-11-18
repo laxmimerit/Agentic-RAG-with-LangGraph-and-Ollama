@@ -1,27 +1,22 @@
-Query: What was Google's revenue in 2023?
+Query: show me amazon's revenue in 2023?## Amazon's Revenue in 2023
 
-## Google's 2023 Revenue
+Amazon's total **net sales (revenue)** for the fiscal year ended December 31, 2023, amounted to **$574.785 billion** [3]. This represents a **12% year-over-year increase** compared to 2022, when net sales were $513.983 billion [3]. 
 
-Google's total revenue for the fiscal year ended December 31, 2023, was **$307.4 billion** (or **$307,394 million**). This figure is detailed in the "Note 2. Revenues" section of Alphabet Inc.'s 10-K filing for 2023 [3].
+### Breakdown by Business Segment
+Amazon's revenue is divided across three segments:
+- **North America**: $352.828 billion (61% of total revenue) [3]
+- **International**: $131.200 billion (23% of total revenue) [3]
+- **AWS**: $90.757 billion (16% of total revenue) [3]
 
-### Breakdown of Revenue Streams
-The revenue is disaggregated into several categories:
-- **Google Search & other**: $175.0 billion  
-- **YouTube ads**: $31.5 billion  
-- **Google Network**: $31.3 billion  
-- **Google advertising**: $237.9 billion  
-- **Google subscriptions, platforms, and devices**: $34.7 billion  
-- **Google Cloud**: $33.1 billion  
-- **Other Bets**: $1.5 billion  
-- **Hedging gains (losses)**: $0.2 billion  
+### Key Drivers of Growth
+- **North America** saw a 12% growth, driven by increased unit sales from third-party sellers, advertising, and subscription services [3].
+- **International** revenue rose 11%, aided by similar factors, with foreign exchange rates adding $88 million to net sales in 2023 [3].
+- **AWS** grew by 13%, contributing significantly to overall expansion [3].
 
-These categories collectively sum to the total revenue of **$307.4 billion** [3].
+### Currency Impact
+Changes in foreign exchange rates reduced net sales by $71 million in 2023, though this effect is excluded in the "year-over-year percentage growth" calculations [3].
 
-### Key Context
-- **Geographic Distribution**: The U.S. accounted for 47% of total revenue, followed by EMEA (30%) and APAC (17%) [3].
-- **Revenue Backlog**: As of December 31, 2023, Google had a revenue backlog of $74.1 billion, primarily from Google Cloud contracts [3].
-
-### References:
-1. Company: Alphabet Inc., Year: 2023, Quarter: N/A, Page: 64  
-2. Company: Alphabet Inc., Year: 2023, Quarter: N/A, Page: 57  
-3. Company: Alphabet Inc., Year: 2023, Quarter: N/A, Page: 64
+**References:**
+1. Company: Amazon, Year: 2023, Quarter: N/A, Page: 24  
+2. Company: Amazon, Year: 2023, Quarter: N/A, Page: 51  
+3. Company: Amazon, Year: 2023, Quarter: N/A, Page: 24
