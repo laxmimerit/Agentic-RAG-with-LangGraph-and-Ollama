@@ -72,7 +72,6 @@ youtube-transcript-api
 # Additional tools
 email-validator
 textblob
-msoffcrypto-tool
 pymupdf4llm
 langgraph-checkpoint-sqlite
 langgraph-checkpoint-postgres
