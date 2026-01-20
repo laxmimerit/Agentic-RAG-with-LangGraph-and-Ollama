@@ -25,14 +25,18 @@ conda config --set auto_activate_base false
 
 ### Windows PowerShell
 ```powershell
-# Create/edit profile
+# 1. Create or edit your PowerShell profile
 notepad $PROFILE
-# If error: New-Item -Path $PROFILE -Type File -Force
+# If the file doesn't exist, create it:
+New-Item -Path $PROFILE -Type File -Force
 
-# Add this line:
+# 2. Add this line inside the profile file:
 conda activate ml
 
-# Save, then reload
+# 3. Allow local scripts to run (needed once)
+Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+
+# 4. Save the profile, then reload it
 . $PROFILE
 ```
 
