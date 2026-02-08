@@ -20,7 +20,7 @@ BASE_URL = "http://localhost:11434"
 LLM_MODEL = "qwen3"
 
 # ollama pull nomic-embed_text
-embeddings= OllamaEmbeddings(model=EMBEDDING_MODEL, base_url=BASE_URL)
+embeddings= OllamaEmbeddings(model=EMBEDDING_MODEL, base_url=BASE_URL, num_ctx=8192)
 
 vector_store = Chroma(
     collection_name=COLLECTION_NAME,
