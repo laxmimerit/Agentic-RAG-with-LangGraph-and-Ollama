@@ -81,5 +81,5 @@ rank_bm25
 sentence_transformers
 hf_xet
 langchain_mcp_adapters
-nest_asynci
+nest_asyncio
 numba>=0.62.1
