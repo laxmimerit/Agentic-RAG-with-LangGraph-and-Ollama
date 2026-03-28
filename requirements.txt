@@ -7,79 +7,27 @@ typing-extensions
 langchain
 langchain-community
 langchain-core
-langchain-huggingface
 langchain-ollama
-langchain-openai
 langgraph
-langsmith
-
-# Document processing
-pymupdf
-pypdf2
-unstructured
-openpyxl
-python-pptx
-python-magic
-docx2txt
-markitdown[all]
-docling[vlm]
-docutils
-xmltodict
-
-# Vector stores & embeddings
-faiss-cpu
-
-# NLP & ML
-nltk
-numpy
-tiktoken
-
-# API clients
-ollama
-openai
-tavily-python
-
-# Web scraping & searching
-beautifulsoup4
-lxml
-selenium
-duckduckgo-search
-ddgs
-wikipedia
-
-# Database
-pymysql
-
-# Web framework
-streamlit
-
-# Utilities
-huggingface-hub
-transformers
-tokenizers
-datasets
-evaluate
-accelerate
-torch
-torchvision
-ipywidgets
-jupyter
-
-# Media processing
-pytube
-youtube-transcript-api
-
-# Additional tools
-email-validator
-textblob
-pymupdf4llm
 langgraph-checkpoint-sqlite
 langgraph-checkpoint-postgres
+langchain_mcp_adapters
+
+# Document processing
+docling[vlm]
+
+# Vector stores
+langchain-chroma
+
+# API clients
+tavily-python
+
+# Web searching
+ddgs
+
+# Database
 psycopg
 psycopg-binary
+
+# Utilities
 rank_bm25
-sentence_transformers
-hf_xet
-langchain_mcp_adapters
-nest_asynci
-numba>=0.62.1
