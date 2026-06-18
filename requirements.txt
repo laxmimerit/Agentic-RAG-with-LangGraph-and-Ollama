@@ -14,7 +14,11 @@ langgraph-checkpoint-postgres
 langchain_mcp_adapters
 
 # Document processing
-docling[vlm]
+# Pinned: docling-parse 5.x has a std::bad_alloc memory regression on longer PDFs (mainly Windows).
+# 4.7.3 / docling 2.66.0 is the last clean combo. Do not unpin without retesting.
+docling[vlm]==2.66.0
+docling-core==2.67.1
+docling-parse==4.7.3
 
 # Vector stores
 langchain-chroma
